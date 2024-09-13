@@ -40,7 +40,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
         );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('User not logged in')),
+          SnackBar(content: Text('user not logged in')),
         );
       }
     }
