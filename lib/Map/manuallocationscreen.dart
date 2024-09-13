@@ -69,7 +69,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
               _buildLabel('Name'),
               _buildTextField(_nameController, 'Enter your Name'),
               SizedBox(height: 20),
-              _buildLabel('Door no / Flat no'),
+              _buildLabel('Door number / Flat no'),
               _buildTextField(_doorController, 'Enter your Door No'),
               SizedBox(height: 20),
               _buildLabel('Address'),
