@@ -76,7 +76,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
               _buildTextField(_addressController, 'Enter your Address'),
               SizedBox(height: 20),
               _buildLabel('City'),
-              _buildTextField(_cityController, 'Enter City'),
+              _buildTextField(_cityController, 'Enter your City'),
               SizedBox(height: 80),
               Center(
                 child: ElevatedButton(
@@ -127,7 +127,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
       ),
       validator: (value) {
         if (value == null || value.isEmpty) {
-          return 'Please enter $hintText';
+          return 'Please enter your $hintText';
         }
         return null;
       },
