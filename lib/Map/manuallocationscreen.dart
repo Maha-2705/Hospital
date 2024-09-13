@@ -51,7 +51,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Enter Location Manually',
+          'Enter location Manually',
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
         elevation: 0,
