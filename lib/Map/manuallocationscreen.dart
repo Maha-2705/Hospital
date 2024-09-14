@@ -40,7 +40,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
         );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('user not logged in')),
+          const SnackBar(content: Text('User not logged in')),
         );
       }
     }
@@ -50,7 +50,7 @@ class _ManualLocationScreenState extends State<ManualLocationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'Enter location Manually',
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
